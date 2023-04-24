@@ -1,0 +1,45 @@
+{{#> layouts/default title="淘牛" }}
+
+{{#*inline "content-block"}}
+<div class="_3aA57c0dJpLuk8fQ8l4Xxb">
+  <div class="_3HwNwq2H1k5pRDdbAr1LJP">
+    <div class="_2xzaiJo_MeICKWmkvdLVMg">
+      <div class="_3iKh6Pg1nEFM-a5pQmkbmy clearfix">
+        <div class="clearfix">
+          <div class="content-left">
+            {{> sections/news_cover }}
+          </div>
+          <div class="content-right">
+            {{> sections/top_list }}
+          </div>
+        </div>
+        <div class="main clearfix">
+          <div class="content-left">
+            <div id="news_tabs" data-reactid="172">
+              {{> sections/news_tabs }}
+              {{> sections/news_list }}
+            </div>
+          </div>
+          <div class="content-right">
+            {{> sections/activity_main }}
+            {{> sections/top_writers }}
+            {{> sections/news_live }}
+            {{> sections/weekly_hot }}
+            {{> sections/news_fresh }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{/inline}}
+
+{{#*inline "head-block"}}
+<link rel="stylesheet" href="/static/css/index.css">
+{{/inline}}
+
+{{#*inline "scripts-block"}}
+<script src=""></script>
+{{/inline}}
+
+{{/layouts/default}}

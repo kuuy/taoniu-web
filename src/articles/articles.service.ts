@@ -5,4 +5,7 @@ export class ArticlesService {
   getHello(): string {
     return 'Hello Articles!';
   }
+  detail(): string {
+    return 'Hello Articles!';
+  }
 }

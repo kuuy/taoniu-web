@@ -12,7 +12,7 @@ async function bootstrap() {
   app.useStaticAssets(join(__dirname, '..', 'static'), {
     prefix: '/static/',
   });
-  app.setBaseViewsDir(join(__dirname, '..', 'views'));
+  app.setBaseViewsDir(join(__dirname, '..', 'views/pages'));
   app.setViewEngine('hbs');
 
   hbs.registerPartials(join(__dirname, '..', 'views/partials'));
