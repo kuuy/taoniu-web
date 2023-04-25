@@ -1,0 +1,30 @@
+{{#> layouts/default title="搜索结果 | 淘牛" }}
+
+{{#*inline "content-block"}}
+<div class="_3aA57c0dJpLuk8fQ8l4Xxb">
+  <div class="_3HwNwq2H1k5pRDdbAr1LJP clearfix">
+    <div class="_2xzaiJo_MeICKWmkvdLVMg clearfix">
+      <div class="content-left">
+        <div class="search-head">
+          {{> sections/search/index/search_box }}
+          {{> sections/search/index/search_tabs }}
+        </div>
+        {{> sections/search/index/search_result }}
+      </div>
+      <div class="content-right">
+        {{> sections/search/index/weekly_hot }}
+      </div>
+    </div>
+  </div>
+</div>
+{{/inline}}
+
+{{#*inline "head-block"}}
+<link rel="stylesheet" href="/static/css/search/index.css">
+{{/inline}}
+
+{{#*inline "scripts-block"}}
+<script src=""></script>
+{{/inline}}
+
+{{/layouts/default}}
